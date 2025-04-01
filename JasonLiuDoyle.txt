@@ -1,20 +1,9 @@
-===============================
-Command Output Test: date
-Generated on: Tue Apr  1 16:17:23 UTC 2025
-===============================
-
-Output of 'date' command:
-Tue Apr  1 16:17:23 UTC 2025
-
-End of test command output.
-===============================
 ==================================
 Shell Script Automation Assignment
-Generated on: Tue Apr  1 16:53:01 UTC 2025
 ==================================
 
 ---------- 1. date ----------
-Tue Apr  1 16:53:01 UTC 2025
+Tue Apr  1 17:13:33 UTC 2025
 
 ---------- 2. hostname ----------
 JasonLiuDoyleCATC
@@ -26,7 +15,7 @@ x86_64
 Linux JasonLiuDoyleCATC 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
 ---------- 5. uptime ----------
- 16:53:01 up  1:10,  1 user,  load average: 0.00, 0.00, 0.00
+ 17:13:33 up  1:31,  1 user,  load average: 0.00, 0.00, 0.00
 
 ---------- 6. whoami ----------
 jasonliudoyle
@@ -35,171 +24,19 @@ jasonliudoyle
 jasonliudoyle pts/0        2025-04-01 15:45 (37.228.229.197)
 
 ---------- 8. w ----------
- 16:53:01 up  1:10,  1 user,  load average: 0.00, 0.00, 0.00
+ 17:13:33 up  1:31,  1 user,  load average: 0.00, 0.00, 0.00
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-jasonliu          37.228.229.197   15:45   55:42   0.00s   ?    sshd: jasonliudoyle [priv]
+jasonliu          37.228.229.197   15:45    1:16m  0.00s   ?    sshd: jasonliudoyle [priv]
 
 ---------- 9. top (snapshot) ----------
-top - 16:53:01 up  1:10,  1 user,  load average: 0.00, 0.00, 0.00
-Tasks: 108 total,   1 running, 107 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  8.3 us,  0.0 sy,  0.0 ni, 83.3 id,  8.3 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :    842.8 total,    337.2 free,    367.8 used,    277.6 buff/cache     
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.    474.9 avail Mem 
-
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   22592  13664   9568 S   0.0   1.6   0:02.39 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
-      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
-      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
-     11 root      20   0       0      0      0 I   0.0   0.0   0:01.07 kworker+
-     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     15 root      20   0       0      0      0 S   0.0   0.0   0:00.11 ksoftir+
-     16 root      20   0       0      0      0 I   0.0   0.0   0:00.17 rcu_sch+
-     17 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
-     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
-     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
-     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
-     21 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     23 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kauditd
-     24 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
-     25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
-     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     28 root      20   0       0      0      0 S   0.0   0.0   0:00.14 kcompac+
-     29 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
-     30 root      39  19       0      0      0 S   0.0   0.0   0:00.09 khugepa+
-     31 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     33 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     34 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-a+
-     35 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     36 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     37 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     41 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     45 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdo+
-     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     47 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
-     48 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptf+
-     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     51 root      20   0       0      0      0 S   0.0   0.0   0:00.74 hwrng
-     52 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
-     53 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     54 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
-     55 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     56 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     57 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     58 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     59 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     62 root      20   0       0      0      0 S   0.0   0.0   0:00.09 hv_ball+
-     63 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     64 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     71 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     73 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     87 root      20   0       0      0      0 S   0.0   0.0   0:00.02 jbd2/sd+
-     88 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     89 root      20   0       0      0      0 I   0.0   0.0   0:01.70 kworker+
-    128 root      19  -1   66888  17468  16316 S   0.0   2.0   0:00.35 systemd+
-    149 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    150 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    187 root      rt   0  288988  27264   8704 S   0.0   3.2   0:00.35 multipa+
-    192 root      20   0   25968   7908   5220 S   0.0   0.9   0:00.16 systemd+
-    206 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
-    275 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    359 root      20   0    3712   2560   1920 S   0.0   0.3   0:01.13 hv_kvp_+
-    394 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sd+
-    395 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    467 systemd+  20   0   21584  12928  10624 S   0.0   1.5   0:00.14 systemd+
-    629 systemd+  20   0   18984   9600   8448 S   0.0   1.1   0:00.05 systemd+
-    686 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sd+
-    687 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    734 message+  20   0    9796   5504   4608 S   0.0   0.6   0:00.14 dbus-da+
-    739 root      20   0   32408  20736  10496 S   0.0   2.4   0:00.12 network+
-    742 polkitd   20   0  308160   8192   7296 S   0.0   0.9   0:00.16 polkitd
-    752 root      20   0   17976   8832   7808 S   0.0   1.0   0:00.07 systemd+
-    755 root      20   0  469072  13824  11520 S   0.0   1.6   0:00.11 udisksd
-    758 root      20   0   43984  35096  12288 S   0.0   4.1   0:00.57 python3
-    770 root      20   0    7224   2688   2432 S   0.0   0.3   0:00.00 cron
-    772 syslog    20   0  222508   6272   4608 S   0.0   0.7   0:00.07 rsyslogd
-    794 root      20   0  109996  22912  13568 S   0.0   2.7   0:00.12 unatten+
-    799 root      20   0    6148   2176   2048 S   0.0   0.3   0:00.00 agetty
-    808 root      20   0    6104   2048   1920 S   0.0   0.2   0:00.17 agetty
-    825 _chrony   20   0   11204   3540   2816 S   0.0   0.4   0:01.73 chronyd
-    833 _chrony   20   0   11072   1016    512 S   0.0   0.1   0:00.00 chronyd
-    834 root      20   0  392024  12928  10880 S   0.0   1.5   0:00.11 ModemMa+
-    964 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    972 root      20   0  410920  35576  12672 S   0.0   4.1   0:04.47 python3
-   1042 root      20   0   12020   8064   7040 S   0.0   0.9   0:00.01 sshd
-   1047 root      20   0   14744   8184   6528 S   0.0   0.9   0:00.00 sshd
-   1050 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
-   1052 jasonli+  20   0   20396  11648   9472 S   0.0   1.3   0:00.18 systemd
-   1053 jasonli+  20   0   21148   3520   1792 S   0.0   0.4   0:00.00 (sd-pam)
-   1180 jasonli+  20   0   14968   7080   5120 S   0.0   0.8   0:04.46 sshd
-   1181 jasonli+  20   0    9316   5376   3584 S   0.0   0.6   0:00.17 bash
-   1269 root      20   0  475668  40448  34944 S   0.0   4.7   0:00.44 fwupd
-   1325 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1554 root      20   0       0      0      0 I   0.0   0.0   0:00.04 kworker+
-   1593 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1610 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1642 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1650 jasonli+  20   0    7740   3456   3200 S   0.0   0.4   0:00.00 script.+
-   1660 jasonli+  20   0   12360   5376   3328 R   0.0   0.6   0:00.00 top
-
----------- 10. history ----------
-==================================
-End of Script Output
-==================================
-==================================
-Shell Script Automation Assignment
-Generated on: Tue Apr  1 16:54:12 UTC 2025
-==================================
-
----------- 1. date ----------
-Tue Apr  1 16:54:12 UTC 2025
-
----------- 2. hostname ----------
-JasonLiuDoyleCATC
-
----------- 3. arch ----------
-x86_64
-
----------- 4. uname -a ----------
-Linux JasonLiuDoyleCATC 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-
----------- 5. uptime ----------
- 16:54:12 up  1:11,  1 user,  load average: 0.00, 0.00, 0.00
-
----------- 6. whoami ----------
-jasonliudoyle
-
----------- 7. who ----------
-jasonliudoyle pts/0        2025-04-01 15:45 (37.228.229.197)
-
----------- 8. w ----------
- 16:54:12 up  1:11,  1 user,  load average: 0.00, 0.00, 0.00
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-jasonliu          37.228.229.197   15:45   56:53   0.00s   ?    sshd: jasonliudoyle [priv]
-
----------- 9. top (snapshot) ----------
-top - 16:54:12 up  1:11,  1 user,  load average: 0.00, 0.00, 0.00
+top - 17:13:33 up  1:31,  1 user,  load average: 0.00, 0.00, 0.00
 Tasks: 109 total,   1 running, 108 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 10.0 us,  0.0 sy,  0.0 ni, 90.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :    842.8 total,    337.2 free,    367.7 used,    277.6 buff/cache     
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.    475.0 avail Mem 
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    842.8 total,    342.6 free,    362.0 used,    278.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    480.8 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   22592  13664   9568 S   0.0   1.6   0:02.39 systemd
+      1 root      20   0   22592  13664   9568 S   0.0   1.6   0:02.40 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -207,67 +44,11 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    475.0 avail Mem
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       9 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
-     11 root      20   0       0      0      0 I   0.0   0.0   0:01.07 kworker+
      12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     15 root      20   0       0      0      0 S   0.0   0.0   0:00.11 ksoftir+
-
----------- 10. history ----------
-==================================
-End of Script Output
-==================================
-==================================
-Shell Script Automation Assignment
-==================================
-
----------- 1. date ----------
-Tue Apr  1 16:55:27 UTC 2025
-
----------- 2. hostname ----------
-JasonLiuDoyleCATC
-
----------- 3. arch ----------
-x86_64
-
----------- 4. uname -a ----------
-Linux JasonLiuDoyleCATC 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-
----------- 5. uptime ----------
- 16:55:27 up  1:13,  1 user,  load average: 0.00, 0.00, 0.00
-
----------- 6. whoami ----------
-jasonliudoyle
-
----------- 7. who ----------
-jasonliudoyle pts/0        2025-04-01 15:45 (37.228.229.197)
-
----------- 8. w ----------
- 16:55:27 up  1:13,  1 user,  load average: 0.00, 0.00, 0.00
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-jasonliu          37.228.229.197   15:45   58:08   0.00s   ?    sshd: jasonliudoyle [priv]
-
----------- 9. top (snapshot) ----------
-top - 16:55:27 up  1:13,  1 user,  load average: 0.00, 0.00, 0.00
-Tasks: 109 total,   1 running, 108 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  0.0 us,  9.1 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :    842.8 total,    337.2 free,    367.7 used,    277.7 buff/cache     
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.    475.1 avail Mem 
-
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   22592  13664   9568 S   0.0   1.6   0:02.39 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
-      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
-      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 kworker+
-     11 root      20   0       0      0      0 I   0.0   0.0   0:01.07 kworker+
-     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     15 root      20   0       0      0      0 S   0.0   0.0   0:00.11 ksoftir+
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.12 ksoftir+
+     16 root      20   0       0      0      0 I   0.0   0.0   0:00.19 rcu_sch+
 
 ---------- 10. history ----------
 ==================================

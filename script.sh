@@ -2,7 +2,7 @@
 
 OUTPUT_FILE="JasonLiuDoyle.txt"
 
-echo "==================================" >> $OUTPUT_FILE
+echo "==================================" > $OUTPUT_FILE
 echo "Shell Script Automation Assignment" >> $OUTPUT_FILE
 echo "==================================" >> $OUTPUT_FILE
 echo "" >> $OUTPUT_FILE
