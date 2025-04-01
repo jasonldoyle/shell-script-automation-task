@@ -45,6 +45,7 @@ echo "" >> $OUTPUT_FILE
 
 echo "---------- 10. history ----------" >> $OUTPUT_FILE
 history >> $OUTPUT_FILE
+echo "" >> $OUTPUT_FILE
 
 echo "==================================" >> $OUTPUT_FILE
 echo "End of Script Output" >> $OUTPUT_FILE
