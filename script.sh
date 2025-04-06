@@ -43,8 +43,8 @@ echo "---------- 9. top (snapshot) ----------" >> $OUTPUT_FILE
 top -n 1 -b | head -n 20  >> $OUTPUT_FILE
 echo "" >> $OUTPUT_FILE
 
-echo "---------- 10. history ----------" >> $OUTPUT_FILE
-history >> $OUTPUT_FILE
+echo "---------- history ----------" >> $OUTPUT_FILE
+cat ~/.bash_history >> $OUTPUT_FILE
 echo "" >> $OUTPUT_FILE
 
 echo "==================================" >> $OUTPUT_FILE
