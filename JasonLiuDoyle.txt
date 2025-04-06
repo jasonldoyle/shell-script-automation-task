@@ -3,7 +3,7 @@ Shell Script Automation Assignment
 ==================================
 
 ---------- 1. date ----------
-Sun Apr  6 18:00:16 UTC 2025
+Sun Apr  6 18:25:20 UTC 2025
 
 ---------- 2. hostname ----------
 JasonLiuDoyleCATC
@@ -15,7 +15,7 @@ x86_64
 Linux JasonLiuDoyleCATC 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
 ---------- 5. uptime ----------
- 18:00:16 up  1:35,  1 user,  load average: 0.00, 0.00, 0.00
+ 18:25:20 up  2:01,  1 user,  load average: 0.04, 0.01, 0.00
 
 ---------- 6. whoami ----------
 jasonliudoyle
@@ -24,213 +24,33 @@ jasonliudoyle
 jasonliudoyle pts/0        2025-04-06 16:24 (37.228.229.197)
 
 ---------- 8. w ----------
- 18:00:16 up  1:35,  1 user,  load average: 0.00, 0.00, 0.00
+ 18:25:20 up  2:01,  1 user,  load average: 0.04, 0.01, 0.00
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-jasonliu          37.228.229.197   16:24    1:35m  0.00s   ?    sshd: jasonliudoyle [priv]
+jasonliu          37.228.229.197   16:24    2:00m  0.00s   ?    sshd: jasonliudoyle [priv]
 
 ---------- 9. top (snapshot) ----------
-top - 18:00:16 up  1:35,  1 user,  load average: 0.00, 0.00, 0.00
-Tasks: 108 total,   2 running, 106 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :    842.8 total,    292.5 free,    385.4 used,    320.0 buff/cache     
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.    457.4 avail Mem 
+top - 18:25:21 up  2:01,  1 user,  load average: 0.04, 0.01, 0.00
+Tasks: 109 total,   1 running, 108 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.1 us,  9.1 sy,  0.0 ni, 81.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    842.8 total,    256.2 free,    395.9 used,    345.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    446.9 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   1033 root      20   0  410920  33508  10880 S  10.0   3.9   0:05.82 python3
-      1 root      20   0   22808  13932   9580 S   0.0   1.6   0:02.43 systemd
+      1 root      20   0   22808  13932   9580 S   0.0   1.6   0:02.45 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      8 root      20   0       0      0      0 I   0.0   0.0   0:03.72 kworker+
-      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.25 kworker+
+      8 root      20   0       0      0      0 I   0.0   0.0   0:03.97 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.26 kworker+
      12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.25 ksoftir+
 
 ---------- history ----------
-mkdir The Beatles
-cd The Beatles
-ls
-mkdir theBeatles
-cd theBeatles
-mkdir abbeyRoad
-cd theBestles
-ls
-mkdir rubberSoul
-cd
-ls
-mkdir ledZepplin 
-cd ledZepplin/
-mkdir ledZepplinI
-ls
-mkdir ledZepplinII
-cd..
-cd
-ls
-mkdir ennioMorricone
-cd ennioMorricone/
-mkdir ilMercinario
-mkdir theGoodtheBadtheUgly
-cd
-ls
-rm -r Beatles The
-ls
-sudo apt install free
-tree
-sudo apt update
-sudo apt install tree
-tree
-sudo poweroff
-echo hello world
-passwd
-sudo passwd jasonliudoyle
-arch 
-uname -a 
-dmesg 
-sudo dmesg
-dmesg | more
-sudo dmesg | more
-uptime*
-uptime
-whoami
-who 
-last
-w
-11:04:39 up 35 min,  2 users,  load average: 0.00, 0.00, 0.00
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-jasonliu          37.228.229.197   10:37   31:50   0.00s   ?    sshd: jasonliud
-jasonliu          37.228.229.197   10:42   31:50   0.00s   ?    sshd: jasonliud
-q
-top 
-echo $SHELL
-echo {con,pre}{sent,fer}{s,ed}
-man ls 
-man ls | more
-clear
-cal 2000
-sudo apt instll ncal
-sudo apt install ncal
-cal 2000
-cal 9 1752 
-yes please
-time sleep 5
-history 
-echo hello world
-passwd
-date
-hostname
-sudo shutdown now
-git --version
-git config --global user.name "jasonliudoyle"
-git config --global user.email "jliudoyle@gmail.com"
-cd~/Users/jason/Desktop/College/ATU/Computational_Thinking/shellScript
-cd ~/Users/jason/Desktop/College/ATU/Computational_Thinking/shellScript
-cd /Users/jason/Desktop/College/ATU/Computational_Thinking/shellScript
-ls
-mkdir -p ~/shell-script-task
-ls
-cd ~/shell-script-task
-git init
-git remote add origin https://github.com/yourusername/shell-script-task.git
-git add script.sh
-git add shell-script-task
-vim script.sh
-ls
-cd
-ls
-cd shell-script-task
-ls
-vim script.sh
-ls
-git add script.sh
-git commit -m "Initial commit: Shell script for automation task"
-git branch -M main
-git push -u origin main
-git remote set-url origin https://github.com/jasonldoyle/shell-script-automation-task.git
-git push -u origin main
-git pull origin main --allow-unrelated-histories
-git push -u origin main
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-jasonliudoyle@JasonLiuDoyleCATC:~/shell-script-task$ git pull origin main --allow-unrelated-histories
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-Unpacking objects: 100% (3/3), 874 bytes | 874.00 KiB/s, done.
-From https://github.com/jasonldoyle/shell-script-automation-task
-hint: You have divergent branches and need to specify how to reconcile them.
-hint: You can do so by running one of the following commands sometime before
-hint: your next pull:
-hint: 
-hint:   git config pull.rebase false  # merge
-hint:   git config pull.rebase true   # rebase
-hint:   git config pull.ff only       # fast-forward only
-hint: 
-hint: You can replace "git config" with "git config --global" to set a default
-hint: preference for all repositories. You can also pass --rebase, --no-rebase,
-hint: or --ff-only on the command line to override the configured default per
-hint: invocation.
-fatal: Need to specify how to reconcile divergent branches.
-jasonliudoyle@JasonLiuDoyleCATC:~/shell-script-task$ git push -u origin main
-Username for 'https://github.com': jasonldoyle
-Password for 'https://jasonldoyle@github.com': 
-To https://github.com/jasonldoyle/shell-script-automation-task.git
-error: failed to push some refs to 'https://github.com/jasonldoyle/shell-script-automation-task.git'
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. If you want to integrate the remote changes,
-hint: use 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-jasonliudoyle@JasonLiuDoyleCATC:~/shell-script-task$ 
-git pull origin main --allow-unrelated-histories --rebase=false
-git push -u origin main
-vim script.sh
-chmod +x script.sh
-./script.sh
-cat JasonLiuDoyle.txt
-vim script.sh
-cat jasonliudoyle.txt
-car JasonLiuDoyle.txt
-cat JasonLiuDoyle.txt
-vim script.sh
-git add .
-
-git commit -m "Created test script for first task: "date" command."
-git push
-vim script.sh
-cat JasonLiuDoyle.txt
-./script.sh
-cat JasonLiuDoyle.txt 
-vim script.sh 
-./script.sh 
-cat JasonLiuDoyle.txt 
-vim script.sh 
-./script.sh 
-cat JasonLiuDoyle.txt 
-git add .
-git commit -m 'Full automation script with "top" command changed to snapshot for readability.'
-git push
-vim script.sh 
-./script.sh 
-cat JasonLiuDoyle.txt 
-git add .
-git commit -m "Overwriting JasonLiuDoyle.txt"
-git push
-vim script.sh
-git add .
-git commit -m 'Added back missing "history" command.'
-git push
-./script.sh 
-git add .
-git commit -m "Final Commit"
-git push
-vim script.sh 
-./script.sh 
-cat JasonLiuDoyle.txt 
-vim scrip
-vim script.sh 
-./script.sh 
 chmod +x script.sh
 ./script.sh 
 cat JasonLiuDoyle.txt 

@@ -44,7 +44,7 @@ top -n 1 -b | head -n 20  >> $OUTPUT_FILE
 echo "" >> $OUTPUT_FILE
 
 echo "---------- history ----------" >> $OUTPUT_FILE
-cat ~/.bash_history >> $OUTPUT_FILE
+tail -n 5 ~/.bash_history >> $OUTPUT_FILE
 echo "" >> $OUTPUT_FILE
 
 echo "==================================" >> $OUTPUT_FILE
